@@ -4,3 +4,25 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.flex-container {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #daa520;
+    border-radius: 50%;
+}
+
+:nth-child(2n) {
+    align-self: center;
+}
+
+:nth-child(3) {
+    align-self: flex-end;
+}
